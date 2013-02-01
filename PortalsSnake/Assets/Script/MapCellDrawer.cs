@@ -21,24 +21,19 @@ public class MapCellDrawer : MonoBehaviour {
 	// Use this for initialization
 	[ExecuteInEditMode]
 	void Start () {
-		settings = this.GetComponent<GlobalSettings>();
-		SetLastMapSizeValues();
-		DrawFieldCells();
+		
 	}
 	
 	private void SetLastMapSizeValues()
 	{
-		lastMapRowCountValue = mapSettings.RowsCount;
-		lastMapColumnCountValue = mapSettings.ColumnsCount;
+		
 	}
 	
 	//Draw cells boards for easy work
 	[ExecuteInEditMode]
 	private void DrawFieldCells()
 	{
-		float cellSize = settings.MapCellSize;
-		int columnCount = mapSettings.ColumnsCount;
-		int rowCount = mapSettings.RowsCount;
+		
 	}
 	
 	[ExecuteInEditMode]
@@ -49,12 +44,6 @@ public class MapCellDrawer : MonoBehaviour {
 	// Update is called once per frame
 	[ExecuteInEditMode]
 	void Update () {
-	if(mapSettings.RowsCount != lastMapRowCountValue ||
-			mapSettings.ColumnsCount != lastMapColumnCountValue)
-		{
-			SetLastMapSizeValues();
-			ClearFieldCells();
-			DrawFieldCells();
-		}
+	
 	}
 }

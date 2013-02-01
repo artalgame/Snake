@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using GameObjects;
 
 public enum MoveDirection{ Left, Right, Up, Down, None }
 public class SnakeMoving : MonoBehaviour {

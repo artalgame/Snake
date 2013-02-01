@@ -1,8 +1,11 @@
 using UnityEngine;
 using System.Collections;
+using GameObjects;
 
 public enum ClickDirection{Left,Right,Top,Bottom,None}
 public class MainObject: MonoBehaviour {
+	
+	public Map Map = new Map(new Vector2(1320, 960), 32);
 	public int CountOfLifes = 1;
 	public bool IsEndGame = false;
 	public SnakeMoving SnakeScript;

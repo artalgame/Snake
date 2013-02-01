@@ -18,7 +18,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_0;UNITY_4_0;UNITY_STANDALONE_WIN;ENABLE_PROFILER;UNITY_EDITOR;UNITY_TEAM_LICENSE</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_0;UNITY_4_0;UNITY_STANDALONE_WIN;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -49,6 +49,12 @@
      <Compile Include="Assets\Script\Element.cs" />
      <Compile Include="Assets\Script\FieldParameters.cs" />
      <Compile Include="Assets\Script\GUIScript.cs" />
+     <Compile Include="Assets\Script\GameObjects\Map.cs" />
+     <Compile Include="Assets\Script\GameObjects\Map\Map.cs" />
+     <Compile Include="Assets\Script\GameObjects\Map\MapCell.cs" />
+     <Compile Include="Assets\Script\GameObjects\MapCell.cs" />
+     <Compile Include="Assets\Script\GameObjects\Snake\Snake.cs" />
+     <Compile Include="Assets\Script\GameObjects\Snake\SnakeElement.cs" />
      <Compile Include="Assets\Script\GlobalSettings.cs" />
      <Compile Include="Assets\Script\Head.cs" />
      <Compile Include="Assets\Script\Interfaces\ChangeFieldSizeWatcher\IChangeFieldSizeListener.cs" />
@@ -59,7 +65,6 @@
      <Compile Include="Assets\Script\MapCellDrawer.cs" />
      <Compile Include="Assets\Script\MapSettings.cs" />
      <Compile Include="Assets\Script\Settings.cs" />
-     <Compile Include="Assets\Script\SnakeElement.cs" />
      <Compile Include="Assets\Script\SnakeMoving.cs" />
      <Compile Include="Assets\Script\Starfield.cs" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
