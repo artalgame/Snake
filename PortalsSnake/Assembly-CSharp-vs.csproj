@@ -49,12 +49,13 @@
      <Compile Include="Assets\Script\Element.cs" />
      <Compile Include="Assets\Script\FieldParameters.cs" />
      <Compile Include="Assets\Script\GUIScript.cs" />
-     <Compile Include="Assets\Script\GameObjects\Map.cs" />
      <Compile Include="Assets\Script\GameObjects\Map\Map.cs" />
      <Compile Include="Assets\Script\GameObjects\Map\MapCell.cs" />
-     <Compile Include="Assets\Script\GameObjects\MapCell.cs" />
      <Compile Include="Assets\Script\GameObjects\Snake\Snake.cs" />
      <Compile Include="Assets\Script\GameObjects\Snake\SnakeElement.cs" />
+     <Compile Include="Assets\Script\GameObjects\Walls\EdgeWalls.cs" />
+     <Compile Include="Assets\Script\GameObjects\Walls\Wall.cs" />
+     <Compile Include="Assets\Script\GameObjects\Walls\Walls.cs" />
      <Compile Include="Assets\Script\GlobalSettings.cs" />
      <Compile Include="Assets\Script\Head.cs" />
      <Compile Include="Assets\Script\Interfaces\ChangeFieldSizeWatcher\IChangeFieldSizeListener.cs" />

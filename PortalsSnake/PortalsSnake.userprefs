@@ -1,8 +1,21 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\GameObjects\Walls\Walls.cs">
+    <Files>
+      <File FileName="Assets\Script\MainObject.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\SnakeMoving.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\CameraSettings.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\GameObjects\Map\Map.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\GameObjects\Walls\Wall.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\GameObjects\Walls\EdgeWalls.cs" Line="30" Column="1" />
+      <File FileName="Assets\Script\Head.cs" Line="43" Column="3" />
+      <File FileName="Assets\Script\GameObjects\Walls\Walls.cs" Line="14" Column="43" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="E:\Google Диск\Projects\PortalsAndSnake\Snake\PortalsSnake\Assets\Script\GameObjects\Walls\EdgeWalls.cs" line="30" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

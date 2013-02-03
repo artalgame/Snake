@@ -1,31 +1,31 @@
 using System;
 using UnityEngine;
 
-	public class Map
+	public class Map : MonoBehaviour
 	{	
-		private Vector2 _mapResolutionPerUnit;
+		public Vector2 mapResolutionPerUnit = new Vector2(1280, 960);
 		public Vector2 MapResolutionPerUnit
 		{
 			get
 			{
-				return _mapResolutionPerUnit;
+				return mapResolutionPerUnit;
 			}
 			set
 			{
-				_mapResolutionPerUnit = value;
+				mapResolutionPerUnit = value;
 			}
 		}
 		
-		private float _mapCellSizePerUnit = 32f;
+		public float mapCellSizePerUnit = 32f;
 		public	float MapCellSizePerUnit
 		{
 			get
 			{
-				return _mapCellSizePerUnit;	
+				return mapCellSizePerUnit;	
 			}
 			set
 			{
-				_mapCellSizePerUnit = value;
+				mapCellSizePerUnit = value;
 			}
 		}
 				

@@ -41,6 +41,5 @@ public class Head : MonoBehaviour {
 	}
 	void Lost()
 	{
-	mainObject.ReduceLife();	
 	}
 }
